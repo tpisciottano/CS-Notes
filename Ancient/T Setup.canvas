@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"a656b9bb865e3069","type":"file","file":"Ancient/B Exec Split.md","x":-836,"y":230,"width":336,"height":70},
+		{"id":"9de7a025fec5c34b","type":"text","text":"**Default 2 - Mid Aggression** \nA - 0\n\nMid - 2\nFlashing out throw elbow smoke once B players smoke/molly Cave\n\nB-3\nOne player holding ramp for aggression, remaining players move to pressure Mid by smoking/mollying Cave","x":240,"y":-320,"width":377,"height":312},
+		{"id":"2caaca76f5ac98de","type":"text","text":"2 Players Take Donut Control\n\nRemaining Molly Red and hold","x":100,"y":132,"width":296,"height":94},
+		{"id":"528727b882c83c7d","type":"text","text":"","x":520,"y":149,"width":250,"height":60,"color":"1"},
+		{"id":"f34fc4fc078dd2b2","type":"text","text":"Push through Donut\nMolly off A main","x":-25,"y":340,"width":250,"height":60},
+		{"id":"c4ceba8a00017591","type":"text","text":"**Default 1**\nA - 1\nHolding in A Main for aggression\n\nMid - 1\nHolding Elbow to come Mid aggression from CTs\n\nB-3\nOne player holding ramp for aggression, remaining players work towards Cave or to ward off aggression from Mid","x":-600,"y":-320,"width":377,"height":312}
+	],
+	"edges":[
+		{"id":"10360f5130b827b0","fromNode":"9de7a025fec5c34b","fromSide":"bottom","toNode":"2caaca76f5ac98de","toSide":"top","color":"4"},
+		{"id":"706fdbe67271193a","fromNode":"2caaca76f5ac98de","fromSide":"bottom","toNode":"f34fc4fc078dd2b2","toSide":"top"},
+		{"id":"582b672c8bef4243","fromNode":"9de7a025fec5c34b","fromSide":"bottom","toNode":"528727b882c83c7d","toSide":"top"},
+		{"id":"bc6726a41d473b40","fromNode":"c4ceba8a00017591","fromSide":"bottom","toNode":"a656b9bb865e3069","toSide":"top"}
+	]
+}

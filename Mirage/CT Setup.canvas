@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"5e34252a045f1301","type":"text","text":"Mid Control","x":-1360,"y":-960,"width":137,"height":60},
+		{"id":"1b1b3eecc8aa7245","type":"text","text":"Awp Connector\n\n1 Player Catwalk\n\n1 Lower Connector","x":-1560,"y":-780,"width":200,"height":160},
+		{"id":"4fb7628229418af4","type":"text","text":"Awper pivots to A\n\nLower and Catwalk Player stay mid to keep control\n","x":-1810,"y":-500,"width":250,"height":140},
+		{"id":"0adee27b714ab258","type":"text","text":"Fall back Connector and Cat and move to take information A ramp and B apps\n","x":-1473,"y":-500,"width":250,"height":140,"color":"1"},
+		{"id":"0f291b76da21cbbd","type":"text","text":"Awp Holding Lower\n\n2 Players Pushing top mid","x":-1100,"y":-780,"width":200,"height":120},
+		{"id":"22844acaa2f3272e","type":"text","text":"Take B apps space","x":-880,"y":-400,"width":250,"height":60},
+		{"id":"abab01168c64c8f9","type":"text","text":"Falling back to Cat/Connector","x":-780,"y":-540,"width":300,"height":60,"color":"1"},
+		{"id":"687684f4c355bdab","type":"text","text":"Take A ramp space","x":-605,"y":-400,"width":250,"height":60},
+		{"id":"38b8e830e3bb2b70","type":"text","text":"Awper moves to Connector to maintain mid control and check palace\n\nTop mid players fall to Cat to support B and Mid hold","x":-1150,"y":-550,"width":250,"height":180},
+		{"id":"ed96b50971daba0c","type":"text","text":"A Aggression","x":-112,"y":-967,"width":142,"height":60},
+		{"id":"16acba9a113cd3c3","type":"text","text":"A Ramp Push\nPlayer holding palace while one sits close ramp\nThird player tosses flash into ramp for a peek","x":-260,"y":-845,"width":250,"height":190},
+		{"id":"7e9ba2ad89cf57c5","x":800,"y":-967,"width":218,"height":61,"type":"text","text":"B Aggression"},
+		{"id":"1e90b99ae8b65513","type":"text","text":"Palace Push","x":156,"y":-835,"width":140,"height":50},
+		{"id":"522f1477260b7f23","type":"text","text":"Aggressive Push","x":355,"y":-705,"width":167,"height":50},
+		{"id":"dbd823c0bee6ce45","type":"text","text":"Awp hold","x":30,"y":-710,"width":126,"height":50},
+		{"id":"0cc896cb696e09a7","type":"text","text":"","x":226,"y":-576,"width":250,"height":106}
+	],
+	"edges":[
+		{"id":"c8bce1349912472e","fromNode":"5e34252a045f1301","fromSide":"bottom","toNode":"1b1b3eecc8aa7245","toSide":"top"},
+		{"id":"6669113b7e6b300d","fromNode":"5e34252a045f1301","fromSide":"bottom","toNode":"0f291b76da21cbbd","toSide":"top"},
+		{"id":"b6c2c7aaae69c347","fromNode":"1b1b3eecc8aa7245","fromSide":"bottom","toNode":"4fb7628229418af4","toSide":"top","color":"4"},
+		{"id":"5fd3b321138c8e22","fromNode":"1b1b3eecc8aa7245","fromSide":"bottom","toNode":"0adee27b714ab258","toSide":"top","color":"1"},
+		{"id":"d081e4ef5b6612bf","fromNode":"0f291b76da21cbbd","fromSide":"bottom","toNode":"38b8e830e3bb2b70","toSide":"top","color":"4"},
+		{"id":"13f12b778903ae70","fromNode":"0f291b76da21cbbd","fromSide":"bottom","toNode":"abab01168c64c8f9","toSide":"top","color":"1"},
+		{"id":"bcbc52ccb5cca4c1","fromNode":"abab01168c64c8f9","fromSide":"bottom","toNode":"22844acaa2f3272e","toSide":"top","label":"Cat"},
+		{"id":"bd16c630cfee9bca","fromNode":"abab01168c64c8f9","fromSide":"bottom","toNode":"687684f4c355bdab","toSide":"top","label":"Connector"},
+		{"id":"0e21bee6150e4a02","fromNode":"ed96b50971daba0c","fromSide":"bottom","toNode":"16acba9a113cd3c3","toSide":"top"},
+		{"id":"f832871a8465fffd","fromNode":"ed96b50971daba0c","fromSide":"bottom","toNode":"1e90b99ae8b65513","toSide":"top"},
+		{"id":"a6088f72ba82f783","fromNode":"1e90b99ae8b65513","fromSide":"bottom","toNode":"dbd823c0bee6ce45","toSide":"top"},
+		{"id":"6b81a57e69ddaf08","fromNode":"1e90b99ae8b65513","fromSide":"bottom","toNode":"522f1477260b7f23","toSide":"top"},
+		{"id":"be4145c3b419274a","fromNode":"522f1477260b7f23","fromSide":"bottom","toNode":"0cc896cb696e09a7","toSide":"top"}
+	]
+}

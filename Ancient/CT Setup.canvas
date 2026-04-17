@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"648baa85ba18c632","type":"text","text":"Default 1\n\nA - 1\nPassive in site\nMid - 2\n1 Red/ 1 Donut\nB - 2\n1 Ramp-Site/ 1 Cave ","x":-648,"y":-405,"width":288,"height":225,"color":"5"},
+		{"id":"c8c1bc347ba7082f","type":"text","text":"Default 2\n\nA - 1\nPassive in site\nMid - 3\n2 Pushing Lower Mid/ 1 Donut Holding Cat\nB - 1\nShort-Site","x":-240,"y":-405,"width":360,"height":225,"color":"5"},
+		{"id":"cd1c4a9a1e53c3e7","type":"text","text":"Util\nA Player:\nElbow smoke\n\nB Player:\nCatwalk molly and nade\n\nMid Players:\nLower mid molly and nade\nCat flashes for box jump up","x":300,"y":-439,"width":250,"height":293},
+		{"id":"666e5c9525dd3bf9","x":-1100,"y":-439,"width":250,"height":293,"type":"text","text":"Util\nA Player:\nElbow smoke\n\nB Player:\nCatwalk molly and nade\nB doors smoke\n\nMid Players:\nLower mid molly and nade"},
+		{"id":"76c3dac5a573e59f","x":-365,"y":0,"width":250,"height":60,"type":"text","text":"Pinch Cat with B player through Ramp"}
+	],
+	"edges":[
+		{"id":"a3869309439a72b1","fromNode":"c8c1bc347ba7082f","fromSide":"bottom","toNode":"76c3dac5a573e59f","toSide":"top","color":"4","label":"Mid Control Gained"},
+		{"id":"17ed309096c8fcdd","fromNode":"648baa85ba18c632","fromSide":"left","toNode":"666e5c9525dd3bf9","toSide":"right"},
+		{"id":"3ec403e2758feb26","fromNode":"c8c1bc347ba7082f","fromSide":"right","toNode":"cd1c4a9a1e53c3e7","toSide":"left"}
+	]
+}
