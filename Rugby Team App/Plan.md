@@ -294,3 +294,22 @@ Notes:
 4. Which DB: SQLite (simple self-host) or Postgres (hosted, multi-team)?
 5. Will players accept coaches seeing their gym logs? We need clear privacy controls. Default: coaches see team-programme sessions only.
 6. Integrations: Google Calendar sync, wearables (GPS/heart rate), club management systems?
+
+## 12. Going commercial: workout tracking as one module
+
+Visual version: https://claude.ai/artifact/6sVCMYiqccQW4cLhW2sfdT
+
+**Reframe:** the product is a rugby team platform. Workout tracking is one module beside chat, schedule, practice planner, selection, welfare/load, club admin and payments. Every module runs on a shared core: identity, teams/roles, notifications, data, integrations and billing.
+
+| Plan | Includes |
+|---|---|
+| Free | Chat, schedule, RSVP, roster, reminders |
+| Pro (per team) | Practice planner, selection, workout tracking, welfare & load, coach dashboard |
+| Club (per club) | Pro plus many squads, safeguarding roles, registration, payments, reports |
+
+Revenue: subscriptions (coaches/clubs pay, players don't), a fee on in-app payments, a programme marketplace for S&C coaches, and later licences for unions and leagues.
+
+**Licensing (summary of openGym's LICENSE/NOTICE.md, not legal advice):**
+- Code is AGPL-3.0. Selling a hosted modified version means publishing all of its source, including anything linked into it.
+- The exercise animations are Gym visual's, not AGPL. NOTICE.md says a commercial fork needs its own licence from gymvisual.com.
+- **Recommendation:** build our own workout module and use openGym only as a UX reference. Alternatives: a dual licence from the author (only covers code he owns), or ship everything as AGPL open-core and sell hosting.
