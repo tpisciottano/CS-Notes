@@ -1,860 +1,1046 @@
 {
 	"nodes": [
 		{
-			"id": "root",
-			"type": "text",
-			"text": "# \ud83c\udfc9 Rugby Team App\nChat \u00b7 Calendar \u00b7 Practice \u00b7 Open Gym\n\n[[Plan]]",
-			"x": 1060,
-			"y": -700,
-			"width": 420,
-			"height": 160,
-			"color": "6"
+			"id": "g_people",
+			"type": "group",
+			"label": "People",
+			"x": 0,
+			"y": 240,
+			"width": 1950,
+			"height": 118
 		},
 		{
-			"id": "g_roles",
+			"id": "g_screens",
 			"type": "group",
-			"label": "Users & roles",
-			"x": -520,
-			"y": -360,
-			"width": 320,
-			"height": 820,
+			"label": "Screens (bottom tab bar)",
+			"x": 0,
+			"y": 468,
+			"width": 1950,
+			"height": 142
+		},
+		{
+			"id": "g_modules",
+			"type": "group",
+			"label": "Modules (colour = plan: green Free \u00b7 orange Pro \u00b7 purple Club \u00b7 blue = workout tracking, Pro)",
+			"x": -50,
+			"y": 720,
+			"width": 2050,
+			"height": 912
+		},
+		{
+			"id": "g_chat",
+			"type": "group",
+			"label": "Chat \u00b7 Free",
+			"x": 0,
+			"y": 800,
+			"width": 300,
+			"height": 782,
+			"color": "4"
+		},
+		{
+			"id": "g_sched",
+			"type": "group",
+			"label": "Schedule & RSVP \u00b7 Free",
+			"x": 330,
+			"y": 800,
+			"width": 300,
+			"height": 782,
+			"color": "4"
+		},
+		{
+			"id": "g_prac",
+			"type": "group",
+			"label": "Practice planner \u00b7 Pro",
+			"x": 660,
+			"y": 800,
+			"width": 300,
+			"height": 782,
+			"color": "2"
+		},
+		{
+			"id": "g_sel",
+			"type": "group",
+			"label": "Selection & welfare \u00b7 Pro",
+			"x": 990,
+			"y": 800,
+			"width": 300,
+			"height": 782,
+			"color": "2"
+		},
+		{
+			"id": "g_gym",
+			"type": "group",
+			"label": "Workout tracking \u00b7 Pro",
+			"x": 1320,
+			"y": 800,
+			"width": 300,
+			"height": 782,
 			"color": "5"
 		},
 		{
-			"id": "r_hc",
-			"type": "text",
-			"text": "**Head coach**\nplans season, builds practices, selects team",
-			"x": -500,
-			"y": -340,
-			"width": 280,
-			"height": 110
+			"id": "g_club",
+			"type": "group",
+			"label": "Club admin & payments \u00b7 Club",
+			"x": 1650,
+			"y": 800,
+			"width": 300,
+			"height": 782,
+			"color": "6"
 		},
 		{
-			"id": "r_sc",
-			"type": "text",
-			"text": "**S&C coach**\nwrites gym programmes, watches load",
-			"x": -500,
-			"y": -210,
-			"width": 280,
-			"height": 110
+			"id": "g_core",
+			"type": "group",
+			"label": "Shared core (every module runs on it)",
+			"x": 0,
+			"y": 1742,
+			"width": 1950,
+			"height": 118
 		},
 		{
-			"id": "r_cap",
+			"id": "g_f1",
+			"type": "group",
+			"label": "Flow 1 \u00b7 Coach schedules a practice",
+			"x": 0,
+			"y": 2180,
+			"width": 1950,
+			"height": 118,
+			"color": "2"
+		},
+		{
+			"id": "g_f2",
+			"type": "group",
+			"label": "Flow 2 \u00b7 Player does open gym",
+			"x": 0,
+			"y": 2378,
+			"width": 1950,
+			"height": 118,
+			"color": "5"
+		},
+		{
+			"id": "g_f3",
+			"type": "group",
+			"label": "Flow 3 \u00b7 Match week",
+			"x": 0,
+			"y": 2576,
+			"width": 1950,
+			"height": 118,
+			"color": "4"
+		},
+		{
+			"id": "title",
 			"type": "text",
-			"text": "**Captain**\nposts, nudges attendance",
-			"x": -500,
-			"y": -80,
-			"width": 280,
-			"height": 110
+			"text": "# Rugby Team Platform\nChat \u00b7 Schedule \u00b7 Practice \u00b7 Selection \u00b7 Workout tracking \u00b7 Club admin\nRead top to bottom: people \u2192 screens \u2192 modules \u2192 core. Key flows at the bottom. Details: [[Plan]]",
+			"x": 0,
+			"y": 0,
+			"width": 1950,
+			"height": 150
 		},
 		{
 			"id": "r_pl",
 			"type": "text",
-			"text": "**Player**\nRSVP, chat, logs gym, wellness",
-			"x": -500,
-			"y": 50,
-			"width": 280,
-			"height": 110
+			"text": "**Player**\nRSVP, chat, log gym, wellness",
+			"x": 20.0,
+			"y": 260,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "r_hc",
+			"type": "text",
+			"text": "**Head coach**\nplans practices, selects team",
+			"x": 343.3333333333333,
+			"y": 260,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "r_sc",
+			"type": "text",
+			"text": "**S&C coach**\nwrites programmes, watches load",
+			"x": 666.6666666666666,
+			"y": 260,
+			"width": 293.3333333333333,
+			"height": 78
 		},
 		{
 			"id": "r_phy",
 			"type": "text",
 			"text": "**Physio**\ninjury status, return to play",
-			"x": -500,
-			"y": 180,
-			"width": 280,
-			"height": 110
+			"x": 990.0,
+			"y": 260,
+			"width": 293.3333333333333,
+			"height": 78
 		},
 		{
 			"id": "r_mgr",
 			"type": "text",
-			"text": "**Manager / admin**\nroster, invites, fixtures",
-			"x": -500,
-			"y": 310,
-			"width": 280,
-			"height": 110
+			"text": "**Manager**\nroster, fixtures, invites",
+			"x": 1313.3333333333333,
+			"y": 260,
+			"width": 293.3333333333333,
+			"height": 78
 		},
 		{
-			"id": "g_chat",
-			"type": "group",
-			"label": "\ud83d\udcac Chat",
-			"x": -80,
-			"y": -360,
-			"width": 300,
-			"height": 700,
-			"color": "1"
-		},
-		{
-			"id": "h_chat",
+			"id": "r_club",
 			"type": "text",
-			"text": "## \ud83d\udcac Chat",
-			"x": -60,
-			"y": -470,
-			"width": 260,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "c_team",
-			"type": "text",
-			"text": "Team channel",
-			"x": -60,
-			"y": -340,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "c_unit",
-			"type": "text",
-			"text": "Unit channels\nforwards / backs / front row",
-			"x": -60,
-			"y": -230,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "c_dm",
-			"type": "text",
-			"text": "Direct messages\n(safeguarding rules for U18)",
-			"x": -60,
-			"y": -120,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "c_ann",
-			"type": "text",
-			"text": "Announcements\ncoach-only, pinned, read receipts",
-			"x": -60,
-			"y": -10,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "c_thread",
-			"type": "text",
-			"text": "Event threads\nauto-created per event",
-			"x": -60,
-			"y": 100,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "c_poll",
-			"type": "text",
-			"text": "Polls & media",
-			"x": -60,
-			"y": 210,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "g_cal",
-			"type": "group",
-			"label": "\ud83d\udcc5 Calendar",
-			"x": 260,
-			"y": -360,
-			"width": 300,
-			"height": 700,
-			"color": "2"
-		},
-		{
-			"id": "h_cal",
-			"type": "text",
-			"text": "## \ud83d\udcc5 Calendar",
-			"x": 280,
-			"y": -470,
-			"width": 260,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "k_view",
-			"type": "text",
-			"text": "Team calendar\nmonth / week / agenda",
-			"x": 280,
-			"y": -340,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "k_types",
-			"type": "text",
-			"text": "Event types\ntraining \u00b7 match \u00b7 gym \u00b7 meeting \u00b7 social",
-			"x": 280,
-			"y": -230,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "k_rsvp",
-			"type": "text",
-			"text": "Availability / RSVP\nYes \u00b7 No \u00b7 Maybe + reason",
-			"x": 280,
-			"y": -120,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "k_me",
-			"type": "text",
-			"text": "Personal view\nmy events + my gym plan",
-			"x": 280,
-			"y": -10,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "k_rem",
-			"type": "text",
-			"text": "Reminders (push)",
-			"x": 280,
-			"y": 100,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "k_ical",
-			"type": "text",
-			"text": "iCal / Google export",
-			"x": 280,
-			"y": 210,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "g_prac",
-			"type": "group",
-			"label": "\ud83c\udfc3 Practice scheduling",
-			"x": 600,
-			"y": -360,
-			"width": 300,
-			"height": 700,
-			"color": "3"
-		},
-		{
-			"id": "h_prac",
-			"type": "text",
-			"text": "## \ud83c\udfc3 Practice scheduling",
-			"x": 620,
-			"y": -470,
-			"width": 260,
-			"height": 70,
-			"color": "3"
-		},
-		{
-			"id": "p_build",
-			"type": "text",
-			"text": "Session builder\ntime blocks, drills, units",
-			"x": 620,
-			"y": -340,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "p_drill",
-			"type": "text",
-			"text": "Drill library\nset piece \u00b7 defence \u00b7 attack \u00b7 conditioning",
-			"x": 620,
-			"y": -230,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "p_tpl",
-			"type": "text",
-			"text": "Templates\nTue contact, Thu captain's run",
-			"x": 620,
-			"y": -120,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "p_pub",
-			"type": "text",
-			"text": "Publish\n\u2192 calendar event + chat thread",
-			"x": 620,
-			"y": -10,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "p_att",
-			"type": "text",
-			"text": "Attendance\ntick list / QR check-in",
-			"x": 620,
-			"y": 100,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "p_rpe",
-			"type": "text",
-			"text": "Session RPE\n\u2192 training load",
-			"x": 620,
-			"y": 210,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "g_gym",
-			"type": "group",
-			"label": "\ud83c\udfcb\ufe0f Open Gym (openGym core)",
-			"x": 940,
-			"y": -360,
-			"width": 300,
-			"height": 700,
-			"color": "4"
-		},
-		{
-			"id": "h_gym",
-			"type": "text",
-			"text": "## \ud83c\udfcb\ufe0f Open Gym (openGym core)",
-			"x": 960,
-			"y": -470,
-			"width": 260,
-			"height": 70,
-			"color": "4"
-		},
-		{
-			"id": "o_prog",
-			"type": "text",
-			"text": "Programmes per position group\n(openGym routines)",
-			"x": 960,
-			"y": -340,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "o_work",
-			"type": "text",
-			"text": "Guided workout + logging\n(openGym Workout view)",
-			"x": 960,
-			"y": -230,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "o_progn",
-			"type": "text",
-			"text": "Progression \u00b7 1RM \u00b7 PRs\n(openGym lib/)",
-			"x": 960,
-			"y": -120,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "o_slot",
-			"type": "text",
-			"text": "Open-gym slots & check-in",
-			"x": 960,
-			"y": -10,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "o_comp",
-			"type": "text",
-			"text": "Coach compliance dashboard",
-			"x": 960,
-			"y": 100,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "o_test",
-			"type": "text",
-			"text": "Fitness testing\nBronco \u00b7 Yo-Yo \u00b7 1RM \u00b7 sprint",
-			"x": 960,
-			"y": 210,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "g_squad",
-			"type": "group",
-			"label": "\ud83d\udc65 Squad & insights",
-			"x": 1280,
-			"y": -360,
-			"width": 300,
-			"height": 700,
-			"color": "5"
-		},
-		{
-			"id": "h_squad",
-			"type": "text",
-			"text": "## \ud83d\udc65 Squad & insights",
-			"x": 1300,
-			"y": -470,
-			"width": 260,
-			"height": 70,
-			"color": "5"
-		},
-		{
-			"id": "s_roster",
-			"type": "text",
-			"text": "Roster & positions\n1\u201315, unit, squad",
-			"x": 1300,
-			"y": -340,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "s_inj",
-			"type": "text",
-			"text": "Injury / availability status",
-			"x": 1300,
-			"y": -230,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "s_sel",
-			"type": "text",
-			"text": "Team selection\nmatch-day 23 \u2192 team sheet",
-			"x": 1300,
-			"y": -120,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "s_inv",
-			"type": "text",
-			"text": "Invites\ncode / QR",
-			"x": 1300,
-			"y": -10,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "s_load",
-			"type": "text",
-			"text": "Load\nsRPE \u00d7 min, acute:chronic",
-			"x": 1300,
-			"y": 100,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "s_att",
-			"type": "text",
-			"text": "Attendance % & leaderboards",
-			"x": 1300,
-			"y": 210,
-			"width": 260,
-			"height": 90
-		},
-		{
-			"id": "g_screens",
-			"type": "group",
-			"label": "App screens (bottom tab bar)",
-			"x": -80,
-			"y": 400,
-			"width": 1660,
-			"height": 170,
-			"color": "6"
+			"text": "**Club admin / parent**\njuniors, registration, fees",
+			"x": 1636.6666666666665,
+			"y": 260,
+			"width": 293.3333333333333,
+			"height": 78
 		},
 		{
 			"id": "t_home",
 			"type": "text",
-			"text": "\ud83c\udfe0 **Home**\nnext event, RSVP due, today's gym, unread",
-			"x": -60,
-			"y": 420,
-			"width": 260,
-			"height": 120
+			"text": "**Home**\nnext event, RSVP due, today's gym, unread",
+			"x": 20.0,
+			"y": 488,
+			"width": 358.0,
+			"height": 102
 		},
 		{
 			"id": "t_cal",
 			"type": "text",
-			"text": "\ud83d\udcc5 **Calendar**\nmonth/week/agenda \u2192 event detail",
-			"x": 280,
-			"y": 420,
-			"width": 260,
-			"height": 120
+			"text": "**Calendar**\nmonth / week / agenda \u2192 event detail",
+			"x": 408.0,
+			"y": 488,
+			"width": 358.0,
+			"height": 102
 		},
 		{
 			"id": "t_chat",
 			"type": "text",
-			"text": "\ud83d\udcac **Chat**\nchannels, DMs, threads",
-			"x": 620,
-			"y": 420,
-			"width": 260,
-			"height": 120
+			"text": "**Chat**\nchannels, DMs, event threads",
+			"x": 796.0,
+			"y": 488,
+			"width": 358.0,
+			"height": 102
 		},
 		{
-			"id": "t_gym",
+			"id": "t_tr",
 			"type": "text",
-			"text": "\ud83c\udfcb\ufe0f **Gym**\nprogramme, start workout, stats",
-			"x": 960,
-			"y": 420,
-			"width": 260,
-			"height": 120
+			"text": "**Training**\nmy programme, start workout, stats",
+			"x": 1184.0,
+			"y": 488,
+			"width": 358.0,
+			"height": 102
 		},
 		{
 			"id": "t_team",
 			"type": "text",
-			"text": "\ud83d\udc65 **Team**\nroster + coach tools",
-			"x": 1300,
-			"y": 420,
+			"text": "**Team**\nroster + coach tools (coaches only)",
+			"x": 1572.0,
+			"y": 488,
+			"width": 358.0,
+			"height": 102
+		},
+		{
+			"id": "h_chat",
+			"type": "text",
+			"text": "**\ud83d\udcac Team chat**",
+			"x": 20,
+			"y": 820,
 			"width": 260,
-			"height": 120
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"id": "chat_0",
+			"type": "text",
+			"text": "Team channel",
+			"x": 20,
+			"y": 894,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "chat_1",
+			"type": "text",
+			"text": "Unit channels\nforwards / backs / front row",
+			"x": 20,
+			"y": 1010,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "chat_2",
+			"type": "text",
+			"text": "Direct messages\nU18 safeguarding rules",
+			"x": 20,
+			"y": 1126,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "chat_3",
+			"type": "text",
+			"text": "Announcements\ncoach-only, pinned, read receipts",
+			"x": 20,
+			"y": 1242,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "chat_4",
+			"type": "text",
+			"text": "Event threads\nauto-created per event",
+			"x": 20,
+			"y": 1358,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "chat_5",
+			"type": "text",
+			"text": "Polls & media",
+			"x": 20,
+			"y": 1474,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "h_sched",
+			"type": "text",
+			"text": "**\ud83d\udcc5 Schedule & RSVP**",
+			"x": 350,
+			"y": 820,
+			"width": 260,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"id": "sched_0",
+			"type": "text",
+			"text": "Team calendar\nmonth / week / agenda",
+			"x": 350,
+			"y": 894,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sched_1",
+			"type": "text",
+			"text": "Event types\ntraining \u00b7 match \u00b7 gym \u00b7 social",
+			"x": 350,
+			"y": 1010,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sched_2",
+			"type": "text",
+			"text": "Availability / RSVP\nyes \u00b7 no \u00b7 maybe + reason",
+			"x": 350,
+			"y": 1126,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sched_3",
+			"type": "text",
+			"text": "Personal view\nmy events + my gym plan",
+			"x": 350,
+			"y": 1242,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sched_4",
+			"type": "text",
+			"text": "Reminders (push)",
+			"x": 350,
+			"y": 1358,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sched_5",
+			"type": "text",
+			"text": "iCal / Google export",
+			"x": 350,
+			"y": 1474,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "h_prac",
+			"type": "text",
+			"text": "**\ud83c\udfc9 Practice planner**",
+			"x": 680,
+			"y": 820,
+			"width": 260,
+			"height": 60,
+			"color": "2"
+		},
+		{
+			"id": "prac_0",
+			"type": "text",
+			"text": "Session builder\ntime blocks, drills, units",
+			"x": 680,
+			"y": 894,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "prac_1",
+			"type": "text",
+			"text": "Drill library\nset piece \u00b7 defence \u00b7 attack",
+			"x": 680,
+			"y": 1010,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "prac_2",
+			"type": "text",
+			"text": "Templates\nTue contact, Thu captain's run",
+			"x": 680,
+			"y": 1126,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "prac_3",
+			"type": "text",
+			"text": "Publish\n\u2192 calendar event + chat thread",
+			"x": 680,
+			"y": 1242,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "prac_4",
+			"type": "text",
+			"text": "Attendance\ntick list / QR check-in",
+			"x": 680,
+			"y": 1358,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "prac_5",
+			"type": "text",
+			"text": "Session RPE\n\u2192 training load",
+			"x": 680,
+			"y": 1474,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "h_sel",
+			"type": "text",
+			"text": "**\ud83d\udc65 Selection & welfare**",
+			"x": 1010,
+			"y": 820,
+			"width": 260,
+			"height": 60,
+			"color": "2"
+		},
+		{
+			"id": "sel_0",
+			"type": "text",
+			"text": "Roster & positions\n1\u201315, unit, squad",
+			"x": 1010,
+			"y": 894,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sel_1",
+			"type": "text",
+			"text": "Injury status\navailable \u00b7 modified \u00b7 out",
+			"x": 1010,
+			"y": 1010,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sel_2",
+			"type": "text",
+			"text": "Wellness check-in\nsleep, soreness, mood",
+			"x": 1010,
+			"y": 1126,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sel_3",
+			"type": "text",
+			"text": "Team selection\nmatch-day 23 \u2192 team sheet",
+			"x": 1010,
+			"y": 1242,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sel_4",
+			"type": "text",
+			"text": "Load\nsRPE \u00d7 minutes, acute:chronic",
+			"x": 1010,
+			"y": 1358,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "sel_5",
+			"type": "text",
+			"text": "Return to play notes",
+			"x": 1010,
+			"y": 1474,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "h_gym",
+			"type": "text",
+			"text": "**\ud83c\udfcb\ufe0f Workout tracking**",
+			"x": 1340,
+			"y": 820,
+			"width": 260,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"id": "gym_0",
+			"type": "text",
+			"text": "Programmes per position group",
+			"x": 1340,
+			"y": 894,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "gym_1",
+			"type": "text",
+			"text": "Guided workout + logging",
+			"x": 1340,
+			"y": 1010,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "gym_2",
+			"type": "text",
+			"text": "Progression \u00b7 1RM \u00b7 PRs",
+			"x": 1340,
+			"y": 1126,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "gym_3",
+			"type": "text",
+			"text": "Open-gym slots & check-in",
+			"x": 1340,
+			"y": 1242,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "gym_4",
+			"type": "text",
+			"text": "Coach compliance dashboard",
+			"x": 1340,
+			"y": 1358,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "gym_5",
+			"type": "text",
+			"text": "Fitness tests\nBronco \u00b7 Yo-Yo \u00b7 1RM \u00b7 sprint",
+			"x": 1340,
+			"y": 1474,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "h_club",
+			"type": "text",
+			"text": "**\ud83c\udfdf\ufe0f Club admin & payments**",
+			"x": 1670,
+			"y": 820,
+			"width": 260,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"id": "club_0",
+			"type": "text",
+			"text": "Multiple squads\n1st XV, 2nd XV, juniors",
+			"x": 1670,
+			"y": 894,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "club_1",
+			"type": "text",
+			"text": "Registration & consent",
+			"x": 1670,
+			"y": 1010,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "club_2",
+			"type": "text",
+			"text": "Safeguarding roles",
+			"x": 1670,
+			"y": 1126,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "club_3",
+			"type": "text",
+			"text": "Subs & match fees",
+			"x": 1670,
+			"y": 1242,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "club_4",
+			"type": "text",
+			"text": "Tour deposits & kit orders",
+			"x": 1670,
+			"y": 1358,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "club_5",
+			"type": "text",
+			"text": "Club reports",
+			"x": 1670,
+			"y": 1474,
+			"width": 260,
+			"height": 102
+		},
+		{
+			"id": "k1",
+			"type": "text",
+			"text": "**Identity**\nlogin, invites",
+			"x": 20.0,
+			"y": 1762,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "k2",
+			"type": "text",
+			"text": "**Teams & roles**\npermissions",
+			"x": 343.3333333333333,
+			"y": 1762,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "k3",
+			"type": "text",
+			"text": "**Notifications**\npush, email",
+			"x": 666.6666666666666,
+			"y": 1762,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "k4",
+			"type": "text",
+			"text": "**Data**\none player record",
+			"x": 990.0,
+			"y": 1762,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "k5",
+			"type": "text",
+			"text": "**Integrations**\ncalendar, wearables",
+			"x": 1313.3333333333333,
+			"y": 1762,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "k6",
+			"type": "text",
+			"text": "**Billing**\nplans, entitlements",
+			"x": 1636.6666666666665,
+			"y": 1762,
+			"width": 293.3333333333333,
+			"height": 78
+		},
+		{
+			"id": "flows_title",
+			"type": "text",
+			"text": "## Key flows\nHow modules feed each other \u2014 each row reads left to right",
+			"x": 0,
+			"y": 2000,
+			"width": 1950,
+			"height": 110
+		},
+		{
+			"id": "f1_0",
+			"type": "text",
+			"text": "Practice builder",
+			"x": 20.0,
+			"y": 2200,
+			"width": 230.0,
+			"height": 78,
+			"color": "2"
+		},
+		{
+			"id": "f1_1",
+			"type": "text",
+			"text": "Publish",
+			"x": 300.0,
+			"y": 2200,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f1_2",
+			"type": "text",
+			"text": "Calendar event + chat thread",
+			"x": 580.0,
+			"y": 2200,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f1_3",
+			"type": "text",
+			"text": "Players RSVP",
+			"x": 860.0,
+			"y": 2200,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f1_4",
+			"type": "text",
+			"text": "Reminder 2h before",
+			"x": 1140.0,
+			"y": 2200,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f1_5",
+			"type": "text",
+			"text": "Attendance taken",
+			"x": 1420.0,
+			"y": 2200,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f1_6",
+			"type": "text",
+			"text": "Session RPE \u2192 load",
+			"x": 1700.0,
+			"y": 2200,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f2_0",
+			"type": "text",
+			"text": "S&C assigns programme to Forwards",
+			"x": 20.0,
+			"y": 2398,
+			"width": 230.0,
+			"height": 78,
+			"color": "5"
+		},
+		{
+			"id": "f2_1",
+			"type": "text",
+			"text": "Shows in Training tab",
+			"x": 300.0,
+			"y": 2398,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f2_2",
+			"type": "text",
+			"text": "Guided workout",
+			"x": 580.0,
+			"y": 2398,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f2_3",
+			"type": "text",
+			"text": "PRs + progression",
+			"x": 860.0,
+			"y": 2398,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f2_4",
+			"type": "text",
+			"text": "Compliance dashboard",
+			"x": 1140.0,
+			"y": 2398,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f2_5",
+			"type": "text",
+			"text": "Load updated",
+			"x": 1420.0,
+			"y": 2398,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f2_6",
+			"type": "text",
+			"text": "Next week adjusted",
+			"x": 1700.0,
+			"y": 2398,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f3_0",
+			"type": "text",
+			"text": "Fixture in calendar",
+			"x": 20.0,
+			"y": 2596,
+			"width": 230.0,
+			"height": 78,
+			"color": "4"
+		},
+		{
+			"id": "f3_1",
+			"type": "text",
+			"text": "Availability poll (Mon)",
+			"x": 300.0,
+			"y": 2596,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f3_2",
+			"type": "text",
+			"text": "Physio marks injuries",
+			"x": 580.0,
+			"y": 2596,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f3_3",
+			"type": "text",
+			"text": "Coach picks 23",
+			"x": 860.0,
+			"y": 2596,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f3_4",
+			"type": "text",
+			"text": "Team sheet \u2192 Announcements",
+			"x": 1140.0,
+			"y": 2596,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f3_5",
+			"type": "text",
+			"text": "Captain's run (Fri)",
+			"x": 1420.0,
+			"y": 2596,
+			"width": 230.0,
+			"height": 78
+		},
+		{
+			"id": "f3_6",
+			"type": "text",
+			"text": "Match \u2192 post-match RPE",
+			"x": 1700.0,
+			"y": 2596,
+			"width": 230.0,
+			"height": 78
 		}
 	],
 	"edges": [
 		{
 			"id": "e0",
-			"fromNode": "root",
+			"fromNode": "g_people",
 			"fromSide": "bottom",
-			"toNode": "h_chat",
-			"toSide": "top"
+			"toNode": "g_screens",
+			"toSide": "top",
+			"label": "open"
 		},
 		{
 			"id": "e1",
-			"fromNode": "h_chat",
+			"fromNode": "g_screens",
 			"fromSide": "bottom",
-			"toNode": "g_chat",
-			"toSide": "top"
+			"toNode": "g_modules",
+			"toSide": "top",
+			"label": "built from"
 		},
 		{
 			"id": "e2",
-			"fromNode": "root",
+			"fromNode": "g_modules",
 			"fromSide": "bottom",
-			"toNode": "h_cal",
-			"toSide": "top"
+			"toNode": "g_core",
+			"toSide": "top",
+			"label": "runs on"
 		},
 		{
 			"id": "e3",
-			"fromNode": "h_cal",
-			"fromSide": "bottom",
-			"toNode": "g_cal",
-			"toSide": "top"
+			"fromNode": "f1_0",
+			"fromSide": "right",
+			"toNode": "f1_1",
+			"toSide": "left",
+			"color": "2"
 		},
 		{
 			"id": "e4",
-			"fromNode": "root",
-			"fromSide": "bottom",
-			"toNode": "h_prac",
-			"toSide": "top"
+			"fromNode": "f1_1",
+			"fromSide": "right",
+			"toNode": "f1_2",
+			"toSide": "left",
+			"color": "2"
 		},
 		{
 			"id": "e5",
-			"fromNode": "h_prac",
-			"fromSide": "bottom",
-			"toNode": "g_prac",
-			"toSide": "top"
+			"fromNode": "f1_2",
+			"fromSide": "right",
+			"toNode": "f1_3",
+			"toSide": "left",
+			"color": "2"
 		},
 		{
 			"id": "e6",
-			"fromNode": "root",
-			"fromSide": "bottom",
-			"toNode": "h_gym",
-			"toSide": "top"
+			"fromNode": "f1_3",
+			"fromSide": "right",
+			"toNode": "f1_4",
+			"toSide": "left",
+			"color": "2"
 		},
 		{
 			"id": "e7",
-			"fromNode": "h_gym",
-			"fromSide": "bottom",
-			"toNode": "g_gym",
-			"toSide": "top"
+			"fromNode": "f1_4",
+			"fromSide": "right",
+			"toNode": "f1_5",
+			"toSide": "left",
+			"color": "2"
 		},
 		{
 			"id": "e8",
-			"fromNode": "root",
-			"fromSide": "bottom",
-			"toNode": "h_squad",
-			"toSide": "top"
+			"fromNode": "f1_5",
+			"fromSide": "right",
+			"toNode": "f1_6",
+			"toSide": "left",
+			"color": "2"
 		},
 		{
 			"id": "e9",
-			"fromNode": "h_squad",
-			"fromSide": "bottom",
-			"toNode": "g_squad",
-			"toSide": "top"
+			"fromNode": "f2_0",
+			"fromSide": "right",
+			"toNode": "f2_1",
+			"toSide": "left",
+			"color": "5"
 		},
 		{
 			"id": "e10",
-			"fromNode": "g_chat",
-			"fromSide": "bottom",
-			"toNode": "t_chat",
-			"toSide": "top",
-			"label": "lives in"
+			"fromNode": "f2_1",
+			"fromSide": "right",
+			"toNode": "f2_2",
+			"toSide": "left",
+			"color": "5"
 		},
 		{
 			"id": "e11",
-			"fromNode": "g_cal",
-			"fromSide": "bottom",
-			"toNode": "t_cal",
-			"toSide": "top",
-			"label": "lives in"
+			"fromNode": "f2_2",
+			"fromSide": "right",
+			"toNode": "f2_3",
+			"toSide": "left",
+			"color": "5"
 		},
 		{
 			"id": "e12",
-			"fromNode": "g_prac",
-			"fromSide": "bottom",
-			"toNode": "t_team",
-			"toSide": "top",
-			"label": "lives in"
+			"fromNode": "f2_3",
+			"fromSide": "right",
+			"toNode": "f2_4",
+			"toSide": "left",
+			"color": "5"
 		},
 		{
 			"id": "e13",
-			"fromNode": "g_gym",
-			"fromSide": "bottom",
-			"toNode": "t_gym",
-			"toSide": "top",
-			"label": "lives in"
+			"fromNode": "f2_4",
+			"fromSide": "right",
+			"toNode": "f2_5",
+			"toSide": "left",
+			"color": "5"
 		},
 		{
 			"id": "e14",
-			"fromNode": "g_squad",
-			"fromSide": "bottom",
-			"toNode": "t_team",
-			"toSide": "top",
-			"label": "lives in"
+			"fromNode": "f2_5",
+			"fromSide": "right",
+			"toNode": "f2_6",
+			"toSide": "left",
+			"color": "5"
 		},
 		{
 			"id": "e15",
-			"fromNode": "g_prac",
-			"fromSide": "bottom",
-			"toNode": "t_cal",
-			"toSide": "top",
-			"label": "shows in"
+			"fromNode": "f3_0",
+			"fromSide": "right",
+			"toNode": "f3_1",
+			"toSide": "left",
+			"color": "4"
 		},
 		{
 			"id": "e16",
-			"fromNode": "r_hc",
+			"fromNode": "f3_1",
 			"fromSide": "right",
-			"toNode": "p_build",
+			"toNode": "f3_2",
 			"toSide": "left",
-			"color": "5"
+			"color": "4"
 		},
 		{
 			"id": "e17",
-			"fromNode": "r_hc",
+			"fromNode": "f3_2",
 			"fromSide": "right",
-			"toNode": "s_sel",
+			"toNode": "f3_3",
 			"toSide": "left",
-			"color": "5"
+			"color": "4"
 		},
 		{
 			"id": "e18",
-			"fromNode": "r_hc",
+			"fromNode": "f3_3",
 			"fromSide": "right",
-			"toNode": "c_ann",
+			"toNode": "f3_4",
 			"toSide": "left",
-			"color": "5"
+			"color": "4"
 		},
 		{
 			"id": "e19",
-			"fromNode": "r_sc",
+			"fromNode": "f3_4",
 			"fromSide": "right",
-			"toNode": "o_prog",
+			"toNode": "f3_5",
 			"toSide": "left",
-			"color": "5"
+			"color": "4"
 		},
 		{
 			"id": "e20",
-			"fromNode": "r_sc",
+			"fromNode": "f3_5",
 			"fromSide": "right",
-			"toNode": "o_comp",
+			"toNode": "f3_6",
 			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e21",
-			"fromNode": "r_sc",
-			"fromSide": "right",
-			"toNode": "o_test",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e22",
-			"fromNode": "r_pl",
-			"fromSide": "right",
-			"toNode": "k_rsvp",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e23",
-			"fromNode": "r_pl",
-			"fromSide": "right",
-			"toNode": "o_work",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e24",
-			"fromNode": "r_pl",
-			"fromSide": "right",
-			"toNode": "c_team",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e25",
-			"fromNode": "r_phy",
-			"fromSide": "right",
-			"toNode": "s_inj",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e26",
-			"fromNode": "r_mgr",
-			"fromSide": "right",
-			"toNode": "s_inv",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e27",
-			"fromNode": "r_mgr",
-			"fromSide": "right",
-			"toNode": "s_roster",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e28",
-			"fromNode": "r_mgr",
-			"fromSide": "right",
-			"toNode": "k_types",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e29",
-			"fromNode": "r_cap",
-			"fromSide": "right",
-			"toNode": "c_unit",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "e30",
-			"fromNode": "p_pub",
-			"fromSide": "right",
-			"toNode": "k_view",
-			"toSide": "left",
-			"label": "creates event",
-			"color": "4"
-		},
-		{
-			"id": "e31",
-			"fromNode": "p_pub",
-			"fromSide": "right",
-			"toNode": "c_thread",
-			"toSide": "left",
-			"label": "creates thread",
-			"color": "4"
-		},
-		{
-			"id": "e32",
-			"fromNode": "k_rsvp",
-			"fromSide": "right",
-			"toNode": "p_att",
-			"toSide": "left",
-			"label": "expected vs actual",
-			"color": "4"
-		},
-		{
-			"id": "e33",
-			"fromNode": "p_att",
-			"fromSide": "right",
-			"toNode": "p_rpe",
-			"toSide": "left",
-			"label": "prompts",
-			"color": "4"
-		},
-		{
-			"id": "e34",
-			"fromNode": "p_rpe",
-			"fromSide": "right",
-			"toNode": "s_load",
-			"toSide": "left",
-			"label": "feeds",
-			"color": "4"
-		},
-		{
-			"id": "e35",
-			"fromNode": "o_work",
-			"fromSide": "right",
-			"toNode": "s_load",
-			"toSide": "left",
-			"label": "feeds",
-			"color": "4"
-		},
-		{
-			"id": "e36",
-			"fromNode": "o_prog",
-			"fromSide": "right",
-			"toNode": "o_work",
-			"toSide": "left",
-			"label": "assigned \u2192 run",
-			"color": "4"
-		},
-		{
-			"id": "e37",
-			"fromNode": "o_work",
-			"fromSide": "right",
-			"toNode": "o_comp",
-			"toSide": "left",
-			"label": "updates",
-			"color": "4"
-		},
-		{
-			"id": "e38",
-			"fromNode": "s_inj",
-			"fromSide": "right",
-			"toNode": "s_sel",
-			"toSide": "left",
-			"label": "filters",
-			"color": "4"
-		},
-		{
-			"id": "e39",
-			"fromNode": "s_sel",
-			"fromSide": "right",
-			"toNode": "c_ann",
-			"toSide": "left",
-			"label": "team sheet",
-			"color": "4"
-		},
-		{
-			"id": "e40",
-			"fromNode": "k_rsvp",
-			"fromSide": "right",
-			"toNode": "s_sel",
-			"toSide": "left",
-			"label": "availability",
-			"color": "4"
-		},
-		{
-			"id": "e41",
-			"fromNode": "s_load",
-			"fromSide": "right",
-			"toNode": "o_prog",
-			"toSide": "left",
-			"label": "adjust next week",
-			"color": "4"
-		},
-		{
-			"id": "e42",
-			"fromNode": "o_progn",
-			"fromSide": "right",
-			"toNode": "c_team",
-			"toSide": "left",
-			"label": "PR shout-out (opt-in)",
-			"color": "4"
-		},
-		{
-			"id": "e43",
-			"fromNode": "k_rem",
-			"fromSide": "right",
-			"toNode": "k_rsvp",
-			"toSide": "left",
-			"label": "nudges",
 			"color": "4"
 		}
 	]
